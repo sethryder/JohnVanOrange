@@ -306,8 +306,14 @@ $('#save_image').click(function () {
   window.location.href = taginfo[0].url;
  });
  
- 
- 
+  /*Halloween code*/
+ date = new Date;
+ ghost = function() {
+  new Ghost();
+ };
+ if (date.getMonth() == 9 && date.getDate() == 31) {
+  window.setInterval(ghost, 15000);
+ }
  
  
 });

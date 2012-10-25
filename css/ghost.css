@@ -1,0 +1,19 @@
+/**
+ * Ghost styles
+ */
+.ghost {
+    position: absolute;
+    width: 150px;
+    height: 145px;
+    z-index: 10001;
+    display: block;
+    opacity: 0.8;
+    background: transparent url('../img/ghost.png') no-repeat;
+}
+.ghost.moving-left {
+    -moz-transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+    -o-transform: scaleX(-1);
+    transform: scaleX(-1);
+    filter: fliph; /*IE*/
+}
