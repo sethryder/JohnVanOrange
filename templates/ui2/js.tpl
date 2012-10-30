@@ -7,7 +7,7 @@
 <script defer src='{$web_root}js/noty/themes/default.js'></script>
 <script defer src='{$web_root}js/jquery.mousewheel.js'></script>
 <script defer src='{$web_root}js/ghost.min.js'></script>
-<script defer src='{$web_root}js/ui2.js?20121010'></script>
+<script defer src='{$web_root}js/ui2.js?20121031'></script>
 
 {literal}<script type="text/javascript">var addthis_config = {"data_track_addressbar":false, ui_click:true};</script>{/literal}
 <script type="text/javascript" src="http://s7.addthis.com/js/300/addthis_widget.js#pubid=ra-4f95e38340e66b80"></script>
